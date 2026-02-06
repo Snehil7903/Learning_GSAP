@@ -8,8 +8,12 @@ gsap.from(".title", {
 
 
 gsap.from(".box", {
-  y: 100,
+  scale: 0.8,
   opacity: 0,
-  duration: 1,
-  ease: "back.out(1.7)"
+  duration: 0.8,
+  stagger: {
+    each: 0.15,
+    from: "start"
+  }
 });
+
