@@ -1,0 +1,19 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-size: 60px;
+}
+
+.box {
+  background-color: lightgrey;
+  width: 300px;
+  height: 300px; /* Add this line */
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+}
