@@ -34,3 +34,10 @@ body {
   align-items: center;
   flex-direction: column;
 }
+
+.features .feature-card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
