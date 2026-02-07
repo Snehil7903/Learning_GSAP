@@ -17,28 +17,26 @@ gsap.from(".box", {
   }
 });
 
-gsap.from(".hero-title", {
+const tl = gsap.timeline();
+
+tl.from(".hero-title", {
   y: 100,
   opacity: 0,
   duration: 1,
   ease: "power4.out"
-});
-
-gsap.from(".hero-sub", {
+})
+.from(".hero-sub", {
   y: 60,
   opacity: 0,
   duration: 1,
-  delay: 0.2,
   ease: "power4.out"
-});
-
-gsap.from(".hero-btn", {
+}, "-=0.6")
+.from(".hero-btn", {
   y: 40,
   opacity: 0,
-  duration: 1,
-  delay: 0.4,
+  duration: 0.8,
   ease: "power4.out"
-});
+}, "-=0.5");
 
 gsap.from(".f-title", {
   y: 100,
