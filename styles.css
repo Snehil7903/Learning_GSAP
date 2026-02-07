@@ -3,6 +3,15 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+}
+
+.top-row {
+    display: flex; 
+    flex-direction: row; 
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
 }
 
 .title {
@@ -12,8 +21,16 @@ body {
 .box {
   background-color: lightgrey;
   width: 300px;
-  height: 300px; /* Add this line */
+  height: 300px; 
   border: 15px solid green;
   padding: 50px;
   margin: 20px;
+}
+
+.hero{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
